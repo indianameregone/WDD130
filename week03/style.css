@@ -44,4 +44,16 @@ header nav a{
 }
 footer{
     height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer nav{
+    width: 600px;
+    display: flex;
+    justify-content:space-between ;
+    padding: 15px;
+}
+footer nav a img{
+    width: 40px;
 }
