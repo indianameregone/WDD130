@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    --primary-color: #089bff;
+    --secondary-color: #08dbff;
+    --accent1-color: #0ffff8;
+    --accent2-color: #90fff7;
+    --botton-color: #fffbf4;
+    /*https://coolors.co/089bff-08dbff-0ffff8-90fff7-c49799*/
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--accent2-color);
+    
+}
+header nav{
+    display: flex;
+    width: 500px;
+    height: auto;
+    padding: 10px 0px;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    
+}
+header nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.main-body{    
+    background: no-repeat center center fixed;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    align-items: center;
+    height: 500px;
+    width: 100vw;
+}
+footer{
+    height: 100px;
+}
